@@ -32,9 +32,9 @@ void SelectItems()
 }
 
 Console.WriteLine("Введите любые строки через пробел:");
-Console.Write("Исходный массив строк: ");
-PrintArray(array);
 CreateArray();
+Console.Write("Исходный массив: ");
+PrintArray(array);
 SelectItems();
 if (k != 0)
 {
